@@ -1,0 +1,15 @@
+year <- "2016"
+title <- "Truth Table Logic Optimizer"
+note <- "R Package Version 1.0.0"
+text <- paste("Stiehl, William. ", year,". ", title,".\n"
+              ,note,".",sep='')
+
+citHeader("Please cite the 'LogicOpt' package as follows:")
+
+citEntry(entry = "Manual",
+    author      = personList(as.person("William Stiehl")),
+    year        = year,
+    title       = title,
+    note        = note,
+    textVersion = text
+)
